@@ -65,8 +65,8 @@
             }
          </style>
          <div class="right-1 flex justify-normal items-end top-[35%] absolute">
-            <img src="/images/tobere-removebg-preview.png" width="300px", height="350px" alt="one" >
-            <img src="/images/toberemov-removebg-preview.png" width="300px", height="350px" alt="two">
+            <img data-src="/images/tobere-removebg-preview.png" width="300px", height="350px" alt="one" class="lazyload">
+            <img data-src="/images/toberemov-removebg-preview.png" width="300px", height="350px" alt="two" class="lazyload">
          </div>
         <div class="p-24 text-black font-extrabold space-y-12 pt-20 z-10" id="para">
             <p class="w-[300px] text-5xl space-y-2 " id="foni">
@@ -155,20 +155,20 @@
         </div>
         <div class="flex h-[40dvh] w-dvw justify-evenly items-start" id="images">
             <span class="border-x-2 w-[400px] border-solid flex justify-center items-center flex-col border-black">
-              <img src="/images/removedb-removebg-preview.png" alt="first">
+              <img data-src="/images/removedb-removebg-preview.png" alt="first" class="lazyload">
               <h2 class="font-mono font-bold">Majestic Pure Oregano</h2>
                <h4 class="font-mono font-bold">$30.00 <small>USD</small></h4>
             </span>
             
             <span class="border-r-2 w-[400px] border-solid flex justify-center items-center flex-col border-black">
-                <img src="/images/tobere-removebg-preview.png" alt="" srcset="">
+                <img data-src="/images/tobere-removebg-preview.png" alt="" srcset="" class="lazyload">
                 <button class="font-thin font-sans flex justify-center bg-white text-center ring-2 ring-slate-800 rounded-md cursor-pointer hover:bg-purple-700 hover:text-white w-[150px] items-center h-[42px] m-5">
                     Product Details
                 </button>
             </span>
 
             <span class="border-r-2 w-[400px] border-solid flex justify-center items-center flex-col border-black">
-                <img src="/images/toberemov-removebg-preview.png" alt="" srcset="">
+                <img data-src="/images/toberemov-removebg-preview.png" alt="" srcset="" class="lazyload">
                 <h2 class="font-mono font-bold">Face MAsk</h2>
                 <h4 class="font-mono font-bold">$30.00 <small>USD</small></h4>
             </span>
@@ -276,6 +276,7 @@
                 <p>Refund Policy</p>
                 <p>Sitemap</p>
             </span>
+            <script src="lazysizes.min.js" async=""></script>
             <script src="database.js"></script>
         </div>
     </section>
